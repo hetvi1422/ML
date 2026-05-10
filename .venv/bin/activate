@@ -35,7 +35,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV=$(cygpath "d:\ML\.venv")
+VIRTUAL_ENV=$(cygpath "D:\Supervised-MachineLearning\.venv")
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
